@@ -6,31 +6,4 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
-
-.navbar.navbar-default.navbar-static-top {
-    background-color: #fe5b2f;
-}
-
-.navbar-header {
-    width: 100px;
-    margin-left: 20px;
-    // background-image: url(/img/spieknavbarlogo.png);
-    // background-position: left;
-    // background-size:100%;
-    // background-repeat: no-repeat;
-	font-weight: normal;
-	font-family: "Avenir";
-}
-
-ul.nav.navbar-nav > li > a {
-    color: #fff;
-    font-family: "Avenir";
-    font-weight: bold;
-}
-
-.navbar-header > a.navbar-brand {
-	color: #fff;
-	font-weight: normal;
-	font-family: "Avenir";
-}
+@import "bootstrap";
